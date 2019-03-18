@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     //Place your instance variables here
-    
+    let allQuestions = QuestionBank()
+    var pickedAnswer : Bool = false
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -21,11 +22,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let firstQuestion = allQuestions.list[0]
+        questionLabel.text = firstQuestion.questionText
     }
 
 
     @IBAction func answerPressed(_ sender: AnyObject) {
-  
+        switch sender.tag {
+        case 1:
+            pickedAnswer = true
+        default:
+            pickedAnswer = false
+        }
+        
+        checkAnswer()
+        
     }
     
     
