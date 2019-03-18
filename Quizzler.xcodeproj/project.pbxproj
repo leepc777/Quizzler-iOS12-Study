@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2245B15F2240244A00A6EDCC /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2245B15E2240244A00A6EDCC /* QuestionBank.swift */; };
+		2245B16122403BF000A6EDCC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2245B16022403BF000A6EDCC /* Helper.swift */; };
 		228FF42F223ECED000AE89E0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FF42E223ECED000AE89E0 /* Question.swift */; };
 		633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646BE1B8C657400FF45E2 /* AppDelegate.swift */; };
 		633646C11B8C657400FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646C01B8C657400FF45E2 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2245B15E2240244A00A6EDCC /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		2245B16022403BF000A6EDCC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		228FF42E223ECED000AE89E0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				228FF42E223ECED000AE89E0 /* Question.swift */,
 				2245B15E2240244A00A6EDCC /* QuestionBank.swift */,
+				2245B16022403BF000A6EDCC /* Helper.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				228FF42F223ECED000AE89E0 /* Question.swift in Sources */,
 				2245B15F2240244A00A6EDCC /* QuestionBank.swift in Sources */,
+				2245B16122403BF000A6EDCC /* Helper.swift in Sources */,
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
